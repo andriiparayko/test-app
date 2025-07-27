@@ -11,7 +11,7 @@ import "antd/dist/reset.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/test-app">
       <GlobalStyle />
       <App />
     </BrowserRouter>

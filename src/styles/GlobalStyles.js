@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .ant-layout {
-        height: 100vh;
+        background-color: #ffffffff;
     }
 `;
 

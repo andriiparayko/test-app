@@ -1,11 +1,10 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import Layout from "./components/Layout/Layout.jsx";
 import Users from "./features/users";
 import About from "./features/about";
 
 const App = () => (
-  <BrowserRouter basename="/test-app">
     <Routes>
       <Route
         path=""
@@ -19,7 +18,6 @@ const App = () => (
       </Route>
       <Route path="*" element={<h2>404 - Page Not Found</h2>} />
     </Routes>
-  </BrowserRouter>
 );
 
 export default App;
